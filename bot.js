@@ -7,7 +7,7 @@ const config = process.env.CONFIG
 
 const prefix = process.env.PREFIX
 const token = process.env.TOKEN
-const ids = process.env.IDS || ["449313863494664214", "228401267263668224", '327259159349297162']
+const ids = process.env.IDS || ["449313863494664214", "228401267263668224", '464416742274498560']
 const private = process.env.PRIVATE
 const regDate = process.env.REGDATE
 const sub = process.env.SUB
@@ -627,7 +627,7 @@ client.on('message', message => {
 
 //admin
 
-const devs = ["449313863494664214", "228401267263668224", "327259159349297162"];
+const devs = ["449313863494664214", "228401267263668224", "464416742274498560"];
 
 
 
@@ -688,7 +688,7 @@ client.on('message', message => {
   ` + '`' + prefix + 'setAvatar` - **لتغيير صورة البوت**' + `
   ` + '`' + prefix + 'setStatus` - **لتغيير حالة البوت**' + `
  
- Customer: <@327259159349297162>
+ Customer: <@464416742274498560>
  
  **جميع الحقوق محفوظة ألى متجر بتر ستور
  BetterStore..**
